@@ -2,7 +2,7 @@
 
 #include "Person.h"
 
-typedef int Key;   // �ֹε�Ϲ�ȣ
+typedef int Key;   // 주민등록번호(ssn)
 typedef Person* Value;
 
 enum SlotStatus {EMPTY, DELETED, INUSE};
