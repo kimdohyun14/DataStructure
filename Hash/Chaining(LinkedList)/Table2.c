@@ -17,7 +17,7 @@ void TBLInsert(Table* pt, Key k, Value v) {
 	Slot ns = { k,v };
 
 	if (TBLSearch(pt, k) != NULL) {
-		printf("Å° Áßº¹ ¿À·ù ¹ß»ı \n");
+		printf("í‚¤ ì¤‘ë³µ ì˜¤ë¥˜ ë°œìƒ \n");
 		return;
 	}
 	else {
