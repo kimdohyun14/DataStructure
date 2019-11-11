@@ -3,9 +3,9 @@
 #define STR_LEN 50
 
 typedef struct _person {
-	int ssn;             // ÁÖ¹Îµî·Ï¹øÈ£
-	char name[STR_LEN];  // ÀÌ ¸§
-	char addr[STR_LEN];  // ÁÖ ¼Ò
+	int ssn;             // ì£¼ë¯¼ë“±ë¡ë²ˆí˜¸
+	char name[STR_LEN];  // ì´ ë¦„
+	char addr[STR_LEN];  // ì£¼ ì†Œ
 }Person;
 
 int GetSSN(Person* p);
