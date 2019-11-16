@@ -3,5 +3,5 @@
 typedef struct _edge {
 	int v1;
 	int v2;
-	int weight; // °æ·ÎÀÇ °¡ÁßÄ¡ ÀúÀå
+	int weight; // ê°€ì¤‘ì¹˜ ì •ë³´
 }Edge;
