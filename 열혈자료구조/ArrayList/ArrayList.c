@@ -8,7 +8,7 @@ void ListInit(List * plist) {
 
 void LInsert(List * plist, LData data) {
 	if (plist->numOfData >= LIST_LEN) {
-		puts("ÀúÀåÀÌ ºÒ°¡´ÉÇÕ´Ï´Ù.");
+		puts("ì €ìž¥ì´ ë¶ˆê°€ëŠ¥í•˜ë‹¤.");
 		return;
 	}
 	plist->arr[plist->numOfData] = data;
