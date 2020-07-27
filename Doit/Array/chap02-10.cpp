@@ -1,4 +1,4 @@
-/* 1000 ÀÌÇÏÀÇ ¼Ò¼ö¸¦ ³ª¿­ÇÑ´Ù. */
+/* 1000 ì´í•˜ì˜ ì†Œìˆ˜ë¥¼ ë‚˜ì—´í•œë‹¤. */
 #include <stdio.h>
 
 int main()
@@ -8,7 +8,7 @@ int main()
 	int ptr = 0;
 	unsigned long counter = 0;
 	prime[ptr++] = 2;
-	for (n = 3; n <= 1000; n += 2) // È¦¼ö¸¸ ´ë»óÀ¸·Î
+	for (n = 3; n <= 1000; n += 2) // í™€ìˆ˜ë§Œ ëŒ€ìƒìœ¼ë¡œ
 	{
 		for (i = 1; i < ptr; ++i)
 		{
@@ -22,6 +22,6 @@ int main()
 	}
 	for (i = 0; i < ptr; ++i)
 		printf("%d\n", prime[i]);
-	printf("³ª´°¼À¤·À» ½ÇÇàÇÑ È½¼ö : %d\n", counter);
+	printf("ë‚˜ëˆ—ì…ˆì„ ì‹¤í–‰í•œ íšŸìˆ˜ : %d\n", counter);
 	return 0;
 }
