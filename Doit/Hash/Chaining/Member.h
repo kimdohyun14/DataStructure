@@ -14,6 +14,6 @@ int MemberNoCmp(const Member* x, const Member* y);
 int MemberNameCmp(const Member* x, const Member* y);
 void PrintMember(const Member* x);
 void PrintLnMember(const Member* x);
-// È¸¿ø µ¥ÀÌÅÍ¸¦ ÀĞ¾î µéÀÓ
+// íšŒì› ë°ì´í„°ë¥¼ ì½ì–´ë“¤ì„
 Member ScanMember(const char* message, int sw);
 #endif
